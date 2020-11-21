@@ -1,0 +1,23 @@
+{
+  "name": "react-vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack-cli": "^4.2.0",
+    "webpack": "^5.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": ["@babel/preset-env","@babel/preset-react"]
+  }
+}
